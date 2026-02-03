@@ -1,0 +1,42 @@
+# Claude
+.claude/
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rails
+task-manager-api/log/*
+task-manager-api/tmp/*
+task-manager-api/storage/*
+task-manager-api/db/*.sqlite3
+task-manager-api/db/*.sqlite3-*
+task-manager-api/config/master.key
+task-manager-api/config/credentials/*.key
+!task-manager-api/log/.keep
+!task-manager-api/tmp/.keep
+!task-manager-api/storage/.keep
+
+# React/Vite
+task-manager-ui/node_modules/
+task-manager-ui/dist/
+*.local
